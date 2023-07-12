@@ -1,4 +1,14 @@
 .wrapper{
+    width: 400px;
+    height: 450px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
     height: 100px;
     width: 400px;
     background-color: #141f40;
@@ -10,15 +20,36 @@
     width: 150px;
     background-color: #80bfa8;
 }
-.center-upper{
+.center{
     float: left;
     height: 50px;
     width: 150px;
     background-color: #dbd400;
 }
-.right-upper{
+.centercenter-middle{
+    margin-top: 50px;
     float: left;
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+.centercenter-bottom{
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+.right{
+    float: right;
     height: 150px;
     width: 100px;
-    background-color: #ff9e6d;
+    background-color: #ff9e6b;
+}
+
+
+.footer{
+    float: left;
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
 }
